@@ -1,6 +1,8 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
+import Card from "./Card";
+
 
 
 const MainPage = () => {
@@ -11,6 +13,7 @@ const MainPage = () => {
         <div >
 
         <Header  />
+        <Card/>
         
         </div>
       </div>
