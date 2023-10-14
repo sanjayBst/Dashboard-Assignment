@@ -2,7 +2,8 @@ import React from "react";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
 import Card from "./Card";
-
+import BarChart from "./BarChart";
+import DonutChart from "./DonutChart";
 
 
 const MainPage = () => {
@@ -14,7 +15,10 @@ const MainPage = () => {
 
         <Header  />
         <Card/>
-        
+        <span className="flex">
+            <BarChart/>
+            <DonutChart/>
+        </span>
         </div>
       </div>
     </div>

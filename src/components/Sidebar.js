@@ -23,38 +23,38 @@ const Sidebar = () => {
         <span className="text-2xl font-tilt">Dashboard</span>
       </div>
       <div className="px-8 py-4 text-xs ">
-        <div className="py-2  flex items-end m-3 active [&.active]:bg-faded rounded-md p-2">
+        <div className="py-2  flex items-end m-3 active [&.active]:bg-faded rounded-md p-2 cursor-pointer">
           <span className="pr-3  text-sm ">
             <TbCircleKey />
           </span>
           <span>Dashboard</span>
         </div>
 
-        <div className="py-2 flex items-end p-2 m-3">
+        <div className="py-2 flex items-end p-2 m-3 cursor-pointer">
           <span className="pr-3  text-sm">
             <TbCube />
           </span>
           <span>Product</span>
         </div>
-        <div className="py-2 flex items-end p-2 m-3">
+        <div className="py-2 flex items-end p-2 m-3 cursor-pointer">
           <span className="pr-3  text-sm">
             <TbUserSquare />
           </span>
           <span>Customers</span>
         </div>
-        <div className="py-2 flex items-end p-2 m-3">
+        <div className="py-2 flex items-end p-2 m-3 cursor-pointer">
           <span className="pr-3  text-sm">
             <TbWallet />
           </span>
           <span>Income</span>
         </div>
-        <div className="py-2 flex items-end p-2 m-3  ">
+        <div className="py-2 flex items-end p-2 m-3  cursor-pointer">
           <span className="pr-3  text-sm">
             <TbDiscount2 />
           </span>
           <span>Promote</span>
         </div>
-        <div className="py-2 flex items-end p-2 m-3">
+        <div className="py-2 flex items-end p-2 m-3 cursor-pointer">
           <span className="pr-3  text-sm">
             <TbHelpSquare />
           </span>
@@ -69,7 +69,7 @@ const Sidebar = () => {
              bg-faded 
              rounded
              mx-3
-             
+             cursor-pointer
              w-[205px]
              h-13
              flex"
