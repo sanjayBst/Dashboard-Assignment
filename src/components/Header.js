@@ -3,9 +3,9 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <div className="flex m-6 mb-8">
-        <span className="text-xl font-bold font-tilt">Hello Sanjay 👋🏻, </span>
-        <span className="ml-[700px] ">
+      <div className="flex mx-6 mt-6 mb-2">
+        <span className="md:text-xl sm:text-sm sm:ml-4 font-bold font-tilt">Hello Sanjay 👋🏻, </span>
+        <span className="lg:ml-[700px] md:ml-[400px] sm:ml-24 ">
           <div className="relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ const Header = () => {
             <input
               type="text"
               placeholder="Search"
-              className="w-44 h-8 py-3 pl-8 pr-4 text-xs  text-gray-500 border rounded-md bg-white "
+              className="w-44 h-8 sm:w-32 sm:h-4 py-3 pl-8 pr-4 text-xs  text-gray-500 border rounded-md bg-white "
             />
           </div>
         </span>

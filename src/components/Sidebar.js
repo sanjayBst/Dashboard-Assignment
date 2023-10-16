@@ -15,7 +15,7 @@ import {
 
 const Sidebar = () => {
   return (
-    <div className="text-white w-[250px] h-screen bg-sidebar">
+    <div className="text-white w-[250px] h-screen bg-sidebar sm:hidden lg:block">
       <div className=" flex p-5">
         <span className="pr-4">
           <TbSettings2 className=" h-8 w-8" />
@@ -65,7 +65,7 @@ const Sidebar = () => {
       <div
         className="fixed 
              inset-x-0 
-             bottom-3 
+             bottom-9 
              bg-faded 
              rounded
              mx-3
@@ -95,3 +95,6 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
+
+
+
