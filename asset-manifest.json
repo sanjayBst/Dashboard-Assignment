@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dashboard/static/css/main.54a893e2.css",
-    "main.js": "/dashboard/static/js/main.e0e8ee3a.js",
-    "static/js/787.545aecf5.chunk.js": "/dashboard/static/js/787.545aecf5.chunk.js",
-    "static/media/user.jpeg": "/dashboard/static/media/user.ed3f4cb9d4b48918d668.jpeg",
-    "static/media/Product_1.jpg": "/dashboard/static/media/Product_1.56a1e8dd41227ee699b1.jpg",
-    "index.html": "/dashboard/index.html",
-    "main.54a893e2.css.map": "/dashboard/static/css/main.54a893e2.css.map",
-    "main.e0e8ee3a.js.map": "/dashboard/static/js/main.e0e8ee3a.js.map",
-    "787.545aecf5.chunk.js.map": "/dashboard/static/js/787.545aecf5.chunk.js.map"
+    "main.css": "/Dashboard-Assignment/static/css/main.54a893e2.css",
+    "main.js": "/Dashboard-Assignment/static/js/main.19991bbc.js",
+    "static/js/787.545aecf5.chunk.js": "/Dashboard-Assignment/static/js/787.545aecf5.chunk.js",
+    "static/media/user.jpeg": "/Dashboard-Assignment/static/media/user.ed3f4cb9d4b48918d668.jpeg",
+    "static/media/Product_1.jpg": "/Dashboard-Assignment/static/media/Product_1.56a1e8dd41227ee699b1.jpg",
+    "index.html": "/Dashboard-Assignment/index.html",
+    "main.54a893e2.css.map": "/Dashboard-Assignment/static/css/main.54a893e2.css.map",
+    "main.19991bbc.js.map": "/Dashboard-Assignment/static/js/main.19991bbc.js.map",
+    "787.545aecf5.chunk.js.map": "/Dashboard-Assignment/static/js/787.545aecf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54a893e2.css",
-    "static/js/main.e0e8ee3a.js"
+    "static/js/main.19991bbc.js"
   ]
 }
