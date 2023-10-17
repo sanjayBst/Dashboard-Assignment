@@ -3,8 +3,10 @@ import React from "react";
 const Chart = () => {
   return (
     <>
-      <div className="mx-8 my-5 md:ml-14 lg:ml-8 sm:w-[330px] lg:w-[740px] h-44 bg-white">
-        <div className="flex flex-col items-center justify-center  text-gray-700 bg-gray-100">
+    <div className="sm:w-screen md:w-[385px] lg:w-[740px]  sm:pr-11 ">
+
+      <div className="ml-5 sm:mr-32 my-5 md:ml-8 lg:ml-8 sm:w-full  sm:my-5  lg:w-[740px] h-44 bg-white">
+        <div className="flex flex-col items-center justify-center   text-gray-700 bg-gray-100">
           <div className="flex flex-col items-center w-full max-w-screen-md  bg-white rounded-lg shadow-xl sm:p-8">
             <div className="flex items-end flex-grow w-full mt-2 space-x-2 sm:space-x-3">
               <div className="relative flex flex-col items-center flex-grow pb-5 group">
@@ -60,6 +62,7 @@ const Chart = () => {
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 };

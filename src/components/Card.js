@@ -3,12 +3,18 @@ import { RiExchangeDollarLine } from "react-icons/ri";
 import { TbNotes,TbWallet } from "react-icons/tb";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 
+
+
 const Card = () => {
+
+  const cardStyle = "flex bg-white md:w-[340px]  lg:w-[250px] md:mr-6 lg:mr-3 lg:h-32 sm:w-screen sm:h-40 lg:mx-3 sm:my-5 sm:mr-9 rounded-lg  "
   return (
     <>
-      <div className="flex   sm:flex-wrap  mt-4 md:mx-10  lg:mx-5 md:w-[720px] lg:w-full ">
-        <span className="flex bg-white lg:w-[250px] md:mr-6 lg:mr-4 lg:h-32 sm:w-[330px] sm:h-44 mx-3 sm:my-5   rounded-lg  ">
-          <div className=" lg:mx-4 sm:ml-10   sm:my-10 lg:mt-4 w-24 h-24 rounded-full  bg-green-100 ">
+    <div className="w-screen ">
+
+      <div className="flex flex-wrap sm:ml-4 mt-4 md:ml-8 sm:w-screen lg:ml-5 md:w-full lg:w-full ">
+        <span className={cardStyle} >
+          <div className=" lg:mx-4 sm:ml-10 sm:my-10 lg:mt-4 w-24 h-24 rounded-full  bg-green-100 ">
             <RiExchangeDollarLine className="m-6  w-12 h-12 text-green-600 " />
           </div>
 
@@ -24,7 +30,7 @@ const Card = () => {
           </span>
         </span>
 
-        <span className="flex bg-white lg:w-[250px] lg:h-32 sm:w-[330px] sm:h-44 mx-3 sm:my-5   rounded-lg  ">
+        <span className={cardStyle}>
           <div className=" lg:mx-4 sm:ml-10   sm:my-10 lg:mt-4 w-24 h-24 rounded-full  bg-purple-100 ">
             <TbNotes className="m-6  w-12 h-12 text-purple-600 " />
           </div>
@@ -41,7 +47,7 @@ const Card = () => {
           </span>
         </span>
 
-        <span className="flex bg-white lg:w-[250px]  md:mr-6 lg:mr-4 lg:h-32 sm:w-[330px] sm:h-44 mx-3 sm:my-5   rounded-lg  ">
+        <span className={cardStyle}>
           <div className=" lg:mx-4 sm:ml-10   sm:my-10 lg:mt-4 w-24 h-24 rounded-full  bg-blue-100 ">
             <TbWallet className="m-6   w-12 h-12 text-blue-700 " />
           </div>
@@ -60,7 +66,7 @@ const Card = () => {
 
         
 
-        <span className="flex bg-white lg:w-[250px] lg:h-32 sm:w-[330px] sm:h-44 mx-3 sm:my-5   rounded-lg  ">
+        <span className={cardStyle}>
           <div className=" lg:mx-4 sm:ml-10   sm:my-10 lg:mt-4 w-24 h-24 rounded-full  bg-red-100 ">
             <HiOutlineShoppingBag className="m-6   w-12 h-12 text-red-600 " />
           </div>
@@ -79,6 +85,7 @@ const Card = () => {
 
        
       </div>
+    </div>
     </>
   );
 };

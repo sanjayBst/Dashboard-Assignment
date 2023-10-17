@@ -5,7 +5,10 @@ import Product_2 from "../assets/Product_2.jpeg";
 const Products = () => {
   return (
     <>
-      <div className="lg:w-[1070px] md:h-fit lg:mb-0 md:mb-12 md:w-[700px] md:ml-14 lg:ml-8 sm:hidden md:block h-full bg-white shadow-xl rounded-lg mx-8 my-2">
+    <div className="w-screen  ">
+
+    
+      <div className="lg:w-[1070px] md:h-fit lg:mb-0 md:mb-12 md:mr-12 md:ml-10 lg:ml-8 sm:hidden md:block h-full bg-white shadow-xl rounded-lg mx-8 my-2">
         <div className="flex  ">
           <span className="lg:ml-[30px] md:ml-[20px] mt-4 text-lg font-bold">Product sell</span>
           <span className="lg:ml-[610px] md:ml-[400px] mt-4 text-xs font-extralight text-gray-500">
@@ -65,7 +68,7 @@ const Products = () => {
               className="h-12 w-24 rounded-lg"
             />
           </span>
-          <span className="ml-[10px] mt-4 ">
+          <span className="ml-[10px] mt-4 md:mb-5 lg:mb-0">
             <div className="text-md font-bold">Sarphens Illustration</div>
             <div className="lg:text-xs md:text-[12px] md:mr-[50px]  font-thin">
               Lorem ipsum dolor sit amet consectetur elit.{" "}
@@ -87,13 +90,13 @@ const Products = () => {
         Product sell
       </div>
 
-      <div className=" sm:w-80 h-fit md:hidden bg-white shadow-xl rounded-lg mx-8 my-2 mb-9">
+      <div className="  h-fit md:hidden bg-white shadow-xl rounded-lg mr-6 ml-7 my-2 mb-9">
       <div className="ml-8 mr-8 lg:hidden ">
           <span className="ml-[30px] mt-4 text-xs font-light text-gray-500">
             <img
               src={Product_1}
               alt="Product 1"
-              className="h-40 w-64 rounded-lg"
+              className="h-40 w-screen rounded-lg"
             />
           </span>
           <span className="ml-[10px] mt-4 ">
@@ -136,16 +139,16 @@ const Products = () => {
         </div>
       </div>
 
-      <div className=" sm:w-80 h-fit md:hidden bg-white shadow-xl rounded-lg mx-8  my-2 mb-9">
+      <div className="  h-fit md:hidden bg-white shadow-xl rounded-lg mx-8  my-2 mb-9">
       <div className="ml-8 mr-8 lg:hidden ">
           <span className="ml-[30px] mt-4 text-xs font-light text-gray-500">
             <img
               src={Product_2}
               alt="Product 2"
-              className="h-40 w-64 rounded-lg"
+              className="h-40 w-screen rounded-lg"
             />
           </span>
-          <span className="ml-[10px] mt-4 ">
+          <span className="ml-[10px] mt-4  ">
             <div className="text-sm font-bold">Sarphens Illustration</div>
             <div className="text-[11px] font-thin">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
@@ -183,6 +186,7 @@ const Products = () => {
 
           
         </div>
+      </div>
       </div>
     </>
   );

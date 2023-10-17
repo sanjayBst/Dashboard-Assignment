@@ -24,12 +24,14 @@ const DonutCharts = () => {
   }  
 
   const onPieEnter = ()=>{
-    console.log("i am active")
+    // console.log("i am active")
   }
 
 
 return (
-  <div className='md:my-5 sm:mt-28 sm:mb-8 sm:ml-8 md:ml-0  md:h-[270px] sm:w-[330px] lg:w-[300px] lg:h-[267px] shadow-xl rounded-lg text-black bg-white'>
+  <div className='sm:w-screen md:w-[300px] lg:w-[300px] '>
+
+  <div className='md:my-5 sm:mt-28 sm:mb-8 sm:ml-6  lg:ml-16 md:ml-5 md:h-[270px] md:w-[330px] sm:mr-9 lg:w-[300px] lg:h-[267px] shadow-xl rounded-lg text-black bg-white'>
 
   <PieChart width={300} height={300}>
   <Pie
@@ -52,6 +54,7 @@ return (
         
       </Pie>
   </PieChart>
+  </div>
   </div>
 );
 }

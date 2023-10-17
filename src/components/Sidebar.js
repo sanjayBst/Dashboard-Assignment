@@ -10,13 +10,14 @@ import {
   TbDiscount2,
   TbHelpSquare,
   TbChevronDown,
-  //   TbChevronRight,
 } from "react-icons/tb";
 
 const Sidebar = () => {
   return (
+    <>
+    
     <div className="text-white w-[250px] h-screen bg-sidebar sm:hidden lg:block">
-      <div className=" flex p-5">
+      <div className=" flex pt-5 pl-3">
         <span className="pr-4">
           <TbSettings2 className=" h-8 w-8" />
         </span>
@@ -64,33 +65,34 @@ const Sidebar = () => {
 
       <div
         className="fixed 
-             inset-x-0 
-             bottom-9 
-             bg-faded 
-             rounded
-             mx-3
-             cursor-pointer
-             w-[205px]
-             h-13
-             flex"
-      >
+        inset-x-0 
+        bottom-9 
+        bg-faded 
+        rounded
+        mx-2
+        cursor-pointer
+        w-[175px]
+        h-13
+        flex"
+        >
         <span>
           <img src={userImg} className="h-9 w-9 m-2 rounded-full " alt="user" />
         </span>
         <span className="mt-3">
           <div
             className="text-xs
-             font-bold"
-          >
+            font-bold"
+            >
             Sanjay Bisht
           </div>
           <div className="text-[10px]">Fronted Developer</div>{" "}
         </span>
-        <div className="ml-7 mt-4 cursor-pointer">
+        <div className="ml-4 mt-4 cursor-pointer">
           <TbChevronDown />
         </div>
       </div>
     </div>
+            </>
   );
 };
 
